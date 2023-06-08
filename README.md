@@ -16,7 +16,7 @@ Creating a team and working with the team, Task creation and assignment, Notific
 -HTML
 -CSS
 -JAVASCRIPT
--MATERIAL UI
+-MUI
 -REACT JS
 
 ## BACKEND
@@ -24,4 +24,4 @@ Creating a team and working with the team, Task creation and assignment, Notific
 -EXPRESS
 -MONGO DB
 -MONGOOSE
--AUTH0 (AUTHENTICATION)
+-JWT
