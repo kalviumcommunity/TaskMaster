@@ -19,9 +19,10 @@ Creating a team and working with the team, Task creation and assignment, Notific
 -MUI
 -REACT JS
 
+
 ## BACKEND
 -NODE JS
 -EXPRESS
 -MONGO DB
 -MONGOOSE
--JWT
+-JWT 
