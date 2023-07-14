@@ -1,0 +1,362 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(232, 244, 246, 1);
+}
+
+/* 1st Sidebar */
+
+
+.Sidebar{
+  height: 100%;
+  width: 300px;
+  background-color: rgba(246, 250, 251, 1);
+}
+#logo{
+  width: 200px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.SidebarList{
+  height: auto;
+  padding: 0%;
+  width: 100%;
+
+}
+.SidebarList .row {
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.SidebarList .row:hover{
+  cursor: pointer;
+  background-color: rgb(186, 186, 186);
+}
+.row #icon{
+  color: black;
+  flex: 30%;
+  display: grid;
+  place-items: center;
+
+}
+.row #title{
+  flex: 60%;
+  color: black;
+}
+
+/* 2nd Sidebar */
+
+
+.Sidebar2{
+  height: 100%;
+  width: 300px;
+  background-color: rgba(246, 250, 251, 1);
+}
+#profile{
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;  
+}
+#mail{
+  margin-top: -20px;
+  color: grey;
+}
+.top{
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#info{
+  margin-left: -60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#hr1{
+  margin: 10% 10%;
+}
+ #calender{
+  width: 220px;
+  height: 150px;
+ }
+ #calendername{
+  margin-left: 10px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .Task{
+  border-radius: 20px;
+  margin-left: 7px;
+  background-color: rgba(230, 247, 251, 1);
+  width: 280px;
+  height: 80px;
+  margin-top: 4%;
+ }
+ .task{
+  background-color: white;
+  border-radius: 10px;
+  color: rgba(51, 141, 163, 1);
+  border: none;
+  margin-top: 9px;
+  margin-left: 20px;
+  width: 80px;
+  height: 20px;
+ }
+ .date{
+  font-size:x-small;
+  margin-left: 220px;
+  margin-top: 18px;
+ }
+ #schedule{
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+
+/* navigation bar */
+
+
+ #navbar{
+  border-radius: 10px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgba(246, 250, 251, 1);
+ }
+
+ #wish{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tagline{
+  color: grey;
+}
+.search1{
+  width: 250px;
+  background-color: white;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.search1:hover{
+  color: grey;
+}
+.team{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 80px;
+  background-color: rgb(217, 248, 248) ;
+  margin: 5%;
+}
+#your{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.dp{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.arrow{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+
+}
+
+
+/* Second page- sidebar */
+.sidepage{
+  display: flex;
+}
+#Side1{
+  height: 100vh;
+  width:  1130px;
+}
+#Side2{
+  background-color: rgba(246, 250, 251, 1);
+  height: 100vh;
+  width: 300px;
+  
+}
+.se{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#content{
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-around;
+  width: 700px;
+  margin-top: 30px;
+}
+.heading{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#adds{
+  border: none;
+  background-color: rgba(248, 213, 213, 1);
+  height: 20px;
+  width: 100px;
+  border-radius: 5px;
+  
+}
+.addicon{
+  width: 15px;
+  height: 10px;
+  align-self: center;
+}
+.teamtasks{
+  display: flex;
+  background-color: rgba(234, 255, 241, 1);
+  border-radius: 10px;
+  height: 85px;
+  width: 800px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 15px;
+}
+.staus2{
+  background-color: rgba(172, 158, 239, 1);
+  border-radius: 10px;
+  width: 130px;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.staus1{
+  background-color: rgba(202, 242, 151, 0.6);
+  border: none;
+  border-radius: 10px;
+  width: 130px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.duedate{
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+}
+.downarrow{
+  width: 15px;
+  height: 10px;
+  cursor: pointer;
+
+}
+
+
+/* Sidebar */
+
+#teamname{
+  color: grey;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.top2{
+  display: flex;
+  justify-content: center;
+}
+.downarrow2{
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+.description{
+  border-radius: 10px;
+  background-color: rgba(234, 255, 241, 1);
+  border: 1px solid green;
+  width: 260px;
+  margin-left: 19px;
+}
+#describe{
+  font-size: small;
+  color: grey;
+
+}
+.text{
+  color: grey;
+}
+.mem{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15px;
+}
+.profilemem{
+  width:50px ;
+  height: 50px;
+}
+#teammem{
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+
+
+/* third page */
+
+
+#thirdsidepage{
+  display: flex;
+}
+#thirdside1{
+
+  height: 100vh;
+  width:  1130px;
+}
+#thirdsidepage2{
+  background-color: rgba(246, 250, 251, 1);
+  height: 100vh;
+  width: 300px;
+}
+.activitytext{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 50px;
+
+}
+.activity{
+  display: flex;
+  justify-content: space-around;
+}
+.completedtasks{
+  text-align: center;
+  width: 400px;
+  height: 440px;
+  background-color: rgba(246, 250, 251, 1) ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.onhold{
+  text-align: center;
+  width: 400px;
+  height: 440px;
+  background-color: rgba(246, 250, 251, 1) ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
